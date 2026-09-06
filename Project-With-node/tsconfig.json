@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src", //! Where your typescript code stay
+    "outDir": "./dist", //! after comppile the ts code in js taht stored in .idst file
+    "module": "nodenext", //! module syteam es6 or es5
+    "target": "esnext",
+    "types": ["node"],
+    "strict": true,
+    // "esModuleInterop": true
+  }
+}
